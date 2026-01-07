@@ -34,7 +34,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* The Blog Button */}
         <div className="blog-section">
           <a 
             href="https://medium.com/@raoaniruddh92" 
@@ -43,16 +42,46 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             Read my blog
-            <svg 
-              className="button-icon" 
-              fill="none" 
-              viewBox="0 0 24 24" 
-              stroke="currentColor"
-            >
+            <svg className="button-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
           </a>
         </div>
+
+        {/* --- About / Bio Section --- */}
+<div className="bio-container">
+  <p className="bio-lead">
+    Passionate security researcher and blockchain developer specializing in 
+    <span className="highlight"> exploit development</span> and 
+    <span className="highlight"> smart contract security</span>.
+  </p>
+
+  <div className="expertise-grid">
+    <div className="expertise-card">
+      <div className="card-header">
+        <span className="card-terminal-icon">_</span>
+        <h4>Security</h4>
+      </div>
+      <p>Reverse Engineering, Cryptography, Web Security</p>
+    </div>
+
+    <div className="expertise-card">
+      <div className="card-header">
+        <span className="card-terminal-icon">_</span>
+        <h4>Blockchain</h4>
+      </div>
+      <p>Solidity, dApp Architecture, Smart Contract Auditing</p>
+    </div>
+
+    <div className="expertise-card">
+      <div className="card-header">
+        <span className="card-terminal-icon">_</span>
+        <h4>Development</h4>
+      </div>
+      <p>Next.js, Firebase, System Design, Full-Stack Engineering</p>
+    </div>
+  </div>
+</div>
 
         <Projects />
       </section>
