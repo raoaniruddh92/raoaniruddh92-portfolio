@@ -42,7 +42,10 @@ export default function Projects() {
         <a className="project-link" href="https://github.com/raoaniruddh92/coffee-next-viem">GitHub</a>
       </div>
     </div>
+    </div>
+    <h2 className="projects-title">My publications </h2>
 
+  <div className="projects-grid">
     <div className="project-card">
       <h3 className="project-title">Cloud-Integrated Blockchain Solution for Agricultural Sales Tracking</h3>
       <p className="project-description">
@@ -56,7 +59,7 @@ export default function Projects() {
       </div>
 
       <div className="project-links">
-        <a className="Publication-Link" href="https://ieeexplore.ieee.org/document/10726066">Live</a>
+        <a className="Publication-Link" href="https://ieeexplore.ieee.org/document/10726066">Publication link</a>
       </div>
     </div>
 
@@ -72,7 +75,7 @@ export default function Projects() {
       </div>
 
       <div className="project-links">
-        <a className="Publication-Link" href="https://ifip.hal.science/IFIP-AICT-723/hal-05157383">Live</a>
+        <a className="Publication-Link" href="https://ifip.hal.science/IFIP-AICT-723/hal-05157383">Publication link</a>
       </div>
     </div>
   </div>
