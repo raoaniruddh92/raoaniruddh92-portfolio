@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Projects from "./Projects";
 
 export default function Home() {
   const [isHacker, setIsHacker] = useState(true);
@@ -28,8 +29,10 @@ export default function Home() {
             </div>
           )}
         </div>
+        <Projects />
 
       </section>
+
     </main>
   );
 }
