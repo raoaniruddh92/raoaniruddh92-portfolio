@@ -15,7 +15,7 @@ export default function Projects() {
       <div className="project-tags">
         <span className="project-tag">Next.js</span>
         <span className="project-tag">Web3-Onboard</span>
-        <span className="project-tag">Sepolia</span>
+        <span className="project-tag">Viem</span>
       </div>
 
       <div className="project-links">
@@ -26,21 +26,20 @@ export default function Projects() {
 
 
     <div className="project-card">
-      <h3 className="project-title">AI Portfolio</h3>
+      <h3 className="project-title">Fund A coffee</h3>
       <p className="project-description">
-        A futuristic developer portfolio with animated text, glitch effects,
-        and dynamic UI.
+        A platform where you can send me sepolia eth.
       </p>
 
       <div className="project-tags">
         <span className="project-tag">Next.js</span>
-        <span className="project-tag">Tailwind</span>
-        <span className="project-tag">Framer Motion</span>
+        <span className="project-tag">Web3-onboard</span>
+        <span className="project-tag">Viem</span>
       </div>
 
       <div className="project-links">
-        <a className="project-link" href="#">Live</a>
-        <a className="project-link" href="#">GitHub</a>
+        <a className="project-link" href="https://coffee-next-viem.vercel.app/">Live</a>
+        <a className="project-link" href="https://github.com/raoaniruddh92/coffee-next-viem">GitHub</a>
       </div>
     </div>
 
