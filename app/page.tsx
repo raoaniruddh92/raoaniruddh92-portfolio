@@ -27,8 +27,9 @@ export default function Home() {
             <div className="dev-text">
               Full Stack Developer
             </div>
-          )}
+          )} 
         </div>
+        <h1 >Check out <a href="https://medium.com/@raoaniruddh92">My blog</a></h1>
         <Projects />
       </section>
 
