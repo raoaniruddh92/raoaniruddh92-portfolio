@@ -30,7 +30,6 @@ export default function Home() {
           )}
         </div>
         <Projects />
-
       </section>
 
     </main>
